@@ -34,7 +34,7 @@ and we receiving as response the ressource details
       },
 "links":
       {
-        "terminate":"http://localhostprocess/:id",
+        "terminate":"http://localhost/process/:id",
         "status":"http://localhost/process/:id/status",
         "job_success":"http://localhost/process/:id/job/success",
         "job_fail":"http://localhost/process/:id/job/fail"

@@ -20,7 +20,7 @@ class JobLoggerController < ApplicationController
 		result['data'] = ProcessLogger.last
 
 		links = Hash.new
-		links['terminate'] = "http://" + request.host + "process/:id"
+		links['terminate'] = "http://" + request.host + "/process/:id"
 		links['status'] = "http://" + request.host + "/process/:id/status"
 		links['job_success'] = "http://" + request.host + "/process/:id/job/success"
 		links['job_fail'] = "http://" + request.host + "/process/:id/job/fail"
