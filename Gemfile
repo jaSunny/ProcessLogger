@@ -33,6 +33,7 @@ gem 'rspec-rails'
 gem 'devise'
 # code coverage analysis tool, see: https://github.com/colszowka/simplecov
 gem 'simplecov', require: false, group: :test
+gem 'coveralls', require: false
 
 group :test, :development do
 	gem 'guard-rspec'
