@@ -3,7 +3,7 @@
 
 
 # ProcessLogger
-
+![Travis Test Success](https://github.com/jaSunny/ProcessLogger/tree/master/spec/travis.png)
 
 
 ## REST
