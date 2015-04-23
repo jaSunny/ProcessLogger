@@ -31,6 +31,8 @@ gem 'rspec-rails'
 
 #gem 'syslogger', '~> 1.6.0' # loggin start & end event of process
 gem 'devise'
+# code coverage analysis tool, see: https://github.com/colszowka/simplecov
+gem 'simplecov', require: false, group: :test
 
 group :test, :development do
 	gem 'guard-rspec'

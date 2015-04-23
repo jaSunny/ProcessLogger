@@ -6,5 +6,5 @@ ProcessLogger.create(title: 'Process1', count_success: 20, count_fail: 2, termin
 ProcessLogger.create(title: 'Process_terminated', count_success: 10, count_fail: 2, terminate: true, amount_of_jobs: 12)
 ProcessLogger.create(title: 'Process_bad', count_success: 1, count_fail: 20, terminate: true, amount_of_jobs: 22)
 ProcessLogger.create(title: 'TestProcess', count_success: 0, count_fail: 0, terminate: false, amount_of_jobs: 6)
-ProcessLogger.create(title: 'TestProcessTerminated', count_success: 1, count_fail: 1, terminate: true, amount_of_jobs: 2)
+ProcessLogger.create(title: 'TestProcessTerminated', count_success: 1, count_fail: 1, terminate: false, amount_of_jobs: 2)
 

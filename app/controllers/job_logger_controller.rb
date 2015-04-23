@@ -58,6 +58,10 @@ class JobLoggerController < ApplicationController
 	def success		
 		@Process = ProcessLogger.find_by_id(params[:id])
 
+		if(@Process == nil)
+			render nothing: true, status: 404 and return #Ressource Not Found
+		end
+
 		if(@Process.terminate == true)
 			render nothing: true, status: 410 and return #Gone -> the resource is no longer available
 		end
