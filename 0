@@ -1,2 +1,0 @@
-      invoke  active_record
-      create    db/migrate/20150423154415_adding_default_2.rb
