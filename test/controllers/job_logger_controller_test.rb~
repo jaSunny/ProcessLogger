@@ -1,0 +1,13 @@
+require 'test_helper'
+
+class JobLoggerControllerTest < ActionController::TestCase
+	background do
+		# currently not needed anymore..
+	end
+
+	before(:each) do
+		load Rails.root + "spec/support/seeds.rb"
+	end
+
+	RSpec.describe "handle process requests
+end
